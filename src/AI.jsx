@@ -23,7 +23,7 @@ const Chatbot = () => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer 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`, // Replace with your OpenAI API key
+            'Authorization': ``, // Replace with your OpenAI API key
           },
           body: JSON.stringify({
             model: 'gpt-3.5-turbo', 
