@@ -1,0 +1,22 @@
+/*#root {
+   max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; 
+}*/
+.NavigationBar {
+  width: 100%;            /* Full width of the viewport */
+  background-color: #f9fcff; /* Light background color (Bootstrap's default light) */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: sticky;      /* Makes it stick to the top when scrolling */
+  top: 0;                /* Position it at the top */
+  z-index: 1000;         /* Ensure it's above other content */
+}
+
+/* Optional: You can also style the NavbarComp directly */
+.NavbarComp {
+  padding: 0;            /* Remove any default padding */
+}
+
+
+
